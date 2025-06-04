@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Echo Mart</title>
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="landingPage.css" />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img
+            src="assets/logo.png"
+            alt=""
+            height="70"
+            width="80"
+            class="d-inline-block"
+          />
+          Echomart
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarText"
+          aria-controls="navbarText"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">BERANDA</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#about"
+                >TENTANG KAMI</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#faq">FAQ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">HUBUNGI KAMI</a>
+            </li>
+            <li class="nav-item">
+              <a href="product.html">
+                <button class="btn btn-danger">Belanja</button>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Hero Start -->
+
+    <div class="container-fluid banner">
+      <div class="container text-center">
+        <h5 class="display-6">
+          Belanja Hemat, Pilihan Lengkap, Semua Ada di Sini!
+        </h5>
+        <h5 class="display-6">
+          Temukan produk-produk favoritmu dengan harga terbaik dan promo setiap
+          hari
+        </h5>
+        <a href="product.html">
+          <button type="button" class="btn btn-danger btn-lg rounded-5">
+            Belanja Sekarang
+          </button>
+        </a>
+      </div>
+    </div>
+
+    <!-- Hero End -->
+
+    <!-- Info Panel Start -->
+
+    <div class="container info-panel" style="background-color: #e3f2fd">
+      <div class="container text-center">
+        <h2 class="display-4">Mengapa Memilih Kami?</h2>
+
+        <div class="row pt-4">
+          <div class="col-md-4">
+            <img src="assets/info1.png" alt="" />
+
+            <h3 class="mt-3">Harga Terjangkau</h3>
+            <p>
+              Nikmati harga yang lebih murah dibanding toko lain tanpa
+              mengorbankan kualitas.
+            </p>
+          </div>
+
+          <div class="col-md-4">
+            <img src="assets/info2.png" alt="" />
+
+            <h3 class="mt-3">Pengiriman Cepat & Aman</h3>
+            <p>
+              Barang dikirim dengan cepat dan dikemas aman agar sampai tanpa
+              cacat.
+            </p>
+          </div>
+
+          <div class="col-md-4">
+            <img src="assets/info3.png" alt="" />
+
+            <h3 class="mt-3">Banyak Promo Menarik</h3>
+            <p>Ada penawaran menarik dan diskon spesial setiap hari!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Info Panel End -->
+
+    <!-- About Start -->
+
+    <div class="container mt-5 p-5" id="about">
+      <h1 class="display-5 text-center mb-5">Tentang Kami</h1>
+      <div class="row">
+        <div class="col-lg">
+          <p class="fs-5">
+            Echomart adalah platform belanja online terpercaya yang menghadirkan
+            berbagai produk pilihan dengan harga terjangkau dan pengalaman
+            belanja yang mudah, cepat, dan aman. Kami percaya bahwa belanja
+            online seharusnya menyenangkan dan bebas repot. Karena itu, Echomart
+            hadir untuk memenuhi kebutuhanmu — mulai dari kebutuhan sehari-hari,
+            fashion, elektronik, hingga produk digital — semuanya dalam satu
+            tempat.
+          </p>
+          <p class="fs-5">
+            Dengan sistem pembayaran yang fleksibel, pengiriman cepat, dan
+            dukungan pelanggan yang siap membantu, Echomart berkomitmen untuk
+            menjadi partner belanja terbaikmu, kapan saja dan di mana saja.
+            <span class="fw-bold">
+              Belanja lebih praktis, hidup lebih mudah. Bersama Echomart.
+            </span>
+          </p>
+        </div>
+        <div class="col-lg">
+          <img
+            src="https://asset.kompas.com/crops/VZGL_d8MN1t1yixTLRLL8UXxMOI=/0x1:780x521/1200x800/data/photo/2021/12/30/61cda492d0853.jpg"
+            alt=""
+            width="500"
+            height="400"
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- About End -->
+
+    <!-- FAQ Start -->
+    <section class="container-fluid" id="faq" style="background-color: #e3f2fd">
+      <div class="container mt-5 p-3">
+        <h1 class="display-5 text-center mb-5">FAQ</h1>
+
+        <div class="accordion" id="accordionExample">
+          <div class="row mb-5 g-5">
+            <div class="col-12 col-lg-6">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed fw-bold"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                  >
+                    Bagaimana cara berbelanja di Echomart?
+                  </button>
+                </h2>
+                <div
+                  id="collapseOne"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    Kamu hanya perlu mendaftar akun, pilih produk yang kamu
+                    inginkan, tambahkan ke keranjang, lalu lanjutkan ke
+                    pembayaran. Setelah pembayaran berhasil, pesananmu akan
+                    segera kami proses dan kirimkan.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-6">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed fw-bold"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo"
+                    aria-expanded="true"
+                    aria-controls="collapseTwo"
+                  >
+                    Metode pembayaran apa saja yang tersedia di Echomart?
+                  </button>
+                </h2>
+                <div
+                  id="collapseTwo"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    Kami mendukung berbagai metode pembayaran, seperti transfer
+                    bank, e-wallet (OVO, DANA, GoPay), kartu kredit, hingga
+                    pembayaran di gerai retail tertentu. Kami terus menambahkan
+                    opsi baru untuk kemudahanmu.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-6">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed fw-bold"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree"
+                    aria-expanded="true"
+                    aria-controls="collapseThree"
+                  >
+                    Berapa lama waktu pengiriman produk?
+                  </button>
+                </h2>
+                <div
+                  id="collapseThree"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    Waktu pengiriman tergantung lokasi dan jenis layanan
+                    pengiriman yang dipilih. Untuk area dalam kota, biasanya 1–3
+                    hari kerja, sementara luar kota bisa 3–7 hari. Kami akan
+                    mengirimkan nomor resi setelah pesanan dikirim.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-6">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed fw-bold"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseFour"
+                    aria-expanded="true"
+                    aria-controls="collapseFour"
+                  >
+                    Apakah saya bisa mengembalikan barang jika tidak sesuai?
+                  </button>
+                </h2>
+                <div
+                  id="collapseFour"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    Tentu! Echomart memiliki kebijakan retur dalam 7 hari sejak
+                    barang diterima, selama produk belum digunakan dan dalam
+                    kondisi seperti semula. Cukup hubungi layanan pelanggan kami
+                    untuk bantuan proses pengembalian.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-6">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed fw-bold"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseFive"
+                    aria-expanded="true"
+                    aria-controls="collapseFive"
+                  >
+                    Apakah produk di Echomart asli dan bergaransi?
+                  </button>
+                </h2>
+                <div
+                  id="collapseFive"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    Ya, semua produk yang dijual di Echomart berasal dari
+                    penjual terpercaya dan sudah melalui proses verifikasi.
+                    Produk elektronik dan barang tertentu juga disertai garansi
+                    sesuai ketentuan pabrik atau distributor.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-6">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed fw-bold"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseSix"
+                    aria-expanded="true"
+                    aria-controls="collapseSix"
+                  >
+                    Bagaimana jika saya mengalami masalah saat berbelanja?
+                  </button>
+                </h2>
+                <div
+                  id="collapseSix"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    Jangan khawatir! Tim layanan pelanggan kami siap membantu
+                    kamu setiap hari melalui live chat, email, atau WhatsApp.
+                    Kami akan memastikan pengalaman belanjamu tetap nyaman dan
+                    memuaskan.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- FAQ End -->
+
+    <!-- Contact Start -->
+
+    <div class="container pt-5">
+      <h2 class="display-3 text-center" id="contact">Hubungi Kami</h2>
+      <p class="text-center">
+        Kepuasanmu adalah prioritas kami. Jangan ragu untuk menghubungi kami
+        jika ada yang ingin ditanyakan atau dibantu.
+      </p>
+      <div class="row pb-3 pt-5">
+        <div class="col-md-6">
+          <input
+            class="form-control form-control-lg mb-3"
+            type="text"
+            placeholder="Nama"
+          />
+          <input
+            class="form-control form-control-lg mb-3"
+            type="text"
+            placeholder="Email"
+          />
+          <input
+            class="form-control form-control-lg"
+            type="text"
+            placeholder="No. Hp"
+          />
+        </div>
+        <div class="col-md-6 pt-2">
+          <textarea class="form-control form-control-lg" rows="5"></textarea>
+        </div>
+      </div>
+      <div class="col-md-3 mx-auto text-center">
+        <button type="button" class="btn btn-danger btn-lg">Kirim Pesan</button>
+      </div>
+    </div>
+
+    <!-- Contact End -->
+
+    <!-- Footer Start -->
+    <footer
+      class="container-fluid mt-5 pt-5 pb-5"
+      style="background-color: #e3f2fd"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-4">
+            <h5 class="fw-semibold">Pembayaran</h5>
+            <img
+              src="https://down-id.img.susercontent.com/file/id-11134258-7rasg-m3elfigsva7j31"
+              alt=""
+            />
+            <img
+              src="https://down-id.img.susercontent.com/file/id-11134258-7rask-m3elfkyp7rvyc9"
+              alt=""
+            />
+            <img
+              src="https://down-id.img.susercontent.com/file/id-11134258-7rasa-m3elfqc3cpsg90"
+              alt=""
+            />
+            <img
+              src="https://down-id.img.susercontent.com/file/id-11134258-7rasc-m3elfssvqtqn58"
+              alt=""
+            />
+            <img
+              src="https://down-id.img.susercontent.com/file/id-11134258-7rask-m3elfv3kdsb4ae"
+              alt=""
+            />
+            <img
+              src="https://down-id.img.susercontent.com/file/id-11134258-7rasi-m3elfnywtdgv0b"
+              alt=""
+            />
+            <img
+              src="https://down-id.img.susercontent.com/file/id-11134258-7ras8-m3elfxpckju7db"
+              alt=""
+            />
+            <img
+              src="https://down-id.img.susercontent.com/file/id-11134258-7rasc-m3elg0155yq700"
+              alt=""
+            />
+            <img
+              src="https://down-id.img.susercontent.com/file/id-11134258-7rask-m3elg2s74z1r24"
+              alt=""
+            />
+            <img
+              src="https://down-id.img.susercontent.com/file/id-11134258-7rasi-m3elg6a60mmod7"
+              alt=""
+            />
+            <img
+              src="https://down-id.img.susercontent.com/file/id-11134258-7rasi-m3elg985pkb340"
+              alt=""
+            />
+            <img
+              src="https://down-id.img.susercontent.com/file/id-11134258-7rasg-m3elgbu7vvkge8"
+              alt=""
+            />
+            <img
+              src="https://down-id.img.susercontent.com/file/id-11134258-7rasi-m3elgeem4oo3e8"
+              alt=""
+            />
+            <img
+              src="https://down-id.img.susercontent.com/file/id-11134258-7rasf-m3elght959awa2"
+              alt=""
+            />
+            <img
+              src="https://down-id.img.susercontent.com/file/id-11134258-7rasb-m3elgtxze51rb0"
+              alt=""
+            />
+            <img
+              src="https://down-id.img.susercontent.com/file/id-11134258-7rasi-m3elgwdxtfqme2"
+              alt=""
+            />
+            <img
+              src="https://down-id.img.susercontent.com/file/id-11134258-7rasd-m3elh2ewzwnj27"
+              alt=""
+            />
+          </div>
+
+          <div class="col-12 col-lg-4">
+            <h5 class="fw-semibold">Jasa Kirim</h5>
+            <img
+              src="https://down-id.img.susercontent.com/file/id-11134258-7rasj-m3elk3axne8sa2"
+              alt=""
+            />
+            <img
+              src="https://down-id.img.susercontent.com/file/id-11134258-7rasf-m3elk52h2gygb5"
+              alt=""
+            />
+            <img
+              src="https://down-id.img.susercontent.com/file/id-11134258-7rash-m3elk72w4gbjee"
+              alt=""
+            />
+            <img
+              src="https://down-id.img.susercontent.com/file/id-11134258-7rasm-m3elk9oyat27a6"
+              alt=""
+            />
+            <img
+              src="https://down-id.img.susercontent.com/file/id-11134258-7ras9-m3elkbmvgj1460"
+              alt=""
+            />
+            <img
+              src="https://down-id.img.susercontent.com/file/id-11134258-7rasj-m3elke0lz07wf7"
+              alt=""
+            />
+            <img
+              src="https://down-id.img.susercontent.com/file/id-11134258-7rasa-m3elkh81a3fgae"
+              alt=""
+            />
+            <img
+              src="https://down-id.img.susercontent.com/file/id-11134258-7rasb-m3elkjsfixy0e0"
+              alt=""
+            />
+            <img
+              src="https://down-id.img.susercontent.com/file/id-11134258-7rase-m3elkn1irjxb9f"
+              alt=""
+            />
+            <img
+              src="https://down-id.img.susercontent.com/file/id-11134258-7rasg-m3elktb3lhlk9e"
+              alt=""
+            />
+            <img
+              src="https://down-id.img.susercontent.com/file/id-11134258-7rasb-m3elkvxzqkf0ae"
+              alt=""
+            />
+            <img
+              src="https://down-id.img.susercontent.com/file/id-11134258-7rasa-m3elkyklw3x893"
+              alt=""
+            />
+            <img
+              src="https://down-id.img.susercontent.com/file/id-11134258-7rase-m3ell0woh4yg37"
+              alt=""
+            />
+            <img
+              src="https://down-id.img.susercontent.com/file/id-11134258-7rasm-m3ell3uy5l0fa8"
+              alt=""
+            />
+          </div>
+
+          <div class="col-12 col-lg-4">
+            <h5 class="fw-semibold">Ikuti kami</h5>
+            <a><i class="fa-brands fa-instagram fa-3x me-3"></i></a>
+            <a><i class="fa-brands fa-facebook fa-3x me-3"></i></a>
+            <a><i class="fa-brands fa-youtube fa-3x me-3"></i></a>
+            <a><i class="fa-brands fa-tiktok fa-3x me-3"></i></a>
+            <a><i class="fa-brands fa-linkedin fa-3x me-3"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <hr />
+
+      <div class="container text-center">
+        &copy; Winson 2025. All Rights Reserved.
+      </div>
+    </footer>
+    <!-- Footer End -->
+
+    <a href="#" id="toTop"><i class="fa-solid fa-arrow-up fa-xl"></i></a>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
